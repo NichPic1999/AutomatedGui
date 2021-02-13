@@ -30,7 +30,7 @@ jobs:
        steps:
          - uses: actions/checkout@v1
          - name: verify file 
-         - run: mvn verifier:verify
+           run: mvn verifier:verify
 
 
 
