@@ -26,7 +26,7 @@ public class PressTicket {
     private JTextArea textArea2;
     private JTextArea textArea4;
     private JButton buttontextarea4;
-    private ChangeInterface changeInterface;
+    public ChangeInterface changeInterface;
 
     public PressTicket(ChangeInterface changeInterface) {
         this.changeInterface = changeInterface;

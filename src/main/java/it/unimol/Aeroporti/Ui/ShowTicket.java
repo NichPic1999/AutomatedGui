@@ -25,7 +25,7 @@ public class ShowTicket {
     private JButton ButtonTextArea3;
     private JButton ButtonTextArea4;
     private JTextArea textArea5;
-    private ChangeInterface changeInterface;
+    public ChangeInterface changeInterface;
 
     private FileOutputTicket fileOutputTicket = new FileOutputTicket();
     private UsersList list_of_users = UsersList.getInstance();// singleton

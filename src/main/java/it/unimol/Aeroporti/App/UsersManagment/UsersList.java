@@ -20,10 +20,8 @@ public class UsersList {
     public User passport_check(User user) throws Exception {
 
             for (User user2 : list_of_users) {
-                if (user2.getPassport_number().equals(user.getPassport_number())) {
-                    if (!user2.getName().equals(user.getName())) {
-                        throw new Exception();
-                    }
+                if (user2.getPassport_number().equals(user.getPassport_number()) && !user2.getName().equals(user.getName())) {
+                   throw new Exception();
                 }
             }
         return user;

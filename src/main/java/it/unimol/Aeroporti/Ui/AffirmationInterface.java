@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 public class AffirmationInterface {
     private JPanel panel1;
     private JButton buttonExit;
-    private ChangeInterface changeInterface;
+    public ChangeInterface changeInterface;
 
     public AffirmationInterface(ChangeInterface changeInterface){
         this.changeInterface = changeInterface;

@@ -8,12 +8,8 @@ public class TicketList {
 
     public void equals_flight(String flight_id, String passport_number) throws Exception {
         for (Ticket ticket : list_of_ticket) {
-            if (ticket.getFlight_booked().getFlight_id().equalsIgnoreCase(flight_id)) {
-                if (ticket.getUser().getPassport_number().equalsIgnoreCase(passport_number)){
-                        throw new Exception();
-                    }
-
-                }
+            if (ticket.getFlight_booked().getFlight_id().equalsIgnoreCase(flight_id) && ticket.getUser().getPassport_number().equalsIgnoreCase(passport_number))
+                 throw new Exception();
             }
         }
 

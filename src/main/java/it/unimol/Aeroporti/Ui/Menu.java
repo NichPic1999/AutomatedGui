@@ -10,7 +10,7 @@ public class Menu implements ActionListener {
     private JButton stampaBiglietto;
     private JButton bigliettiAcquistati;
     private JButton prenotaBiglietto;
-    private ChangeInterface changeInterface;
+    public ChangeInterface changeInterface;
 
 
 
