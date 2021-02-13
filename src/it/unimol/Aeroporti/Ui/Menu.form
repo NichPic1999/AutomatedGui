@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="it.unimol.Aeroporti.Ui.Menu">
+  <grid id="27dc6" binding="MenuPanel" layout-manager="GridLayoutManager" row-count="8" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-12522006"/>
+      <foreground color="-4521962"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="132b1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-593927"/>
+          <enabled value="true"/>
+          <font name="Brush Script MT" size="36"/>
+          <foreground color="-913635"/>
+          <text value="AliAgnone"/>
+        </properties>
+      </component>
+      <component id="c9399" class="javax.swing.JButton" binding="stampaBiglietto">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2579"/>
+          <foreground color="-913635"/>
+          <text value="Stampa biglietto"/>
+        </properties>
+      </component>
+      <component id="5c1ea" class="javax.swing.JButton" binding="bigliettiAcquistati">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2579"/>
+          <foreground color="-913635"/>
+          <text value=" biglietti acquistati"/>
+        </properties>
+      </component>
+      <component id="391dc" class="javax.swing.JButton" binding="prenotaBiglietto">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2579"/>
+          <foreground color="-913635"/>
+          <text value="Prenota biglietto"/>
+        </properties>
+      </component>
+      <component id="d4957" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Brush Script MT" size="26"/>
+          <foreground color="-913635"/>
+          <text value="Prenota qui il tuo biglietto!"/>
+        </properties>
+      </component>
+      <component id="9a335" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Brush Script MT" size="26"/>
+          <foreground color="-913635"/>
+          <text value="Visualizza biglietti acquistati"/>
+        </properties>
+      </component>
+      <component id="e410" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Brush Script MT" size="28"/>
+          <foreground color="-913635"/>
+          <text value="Stampa qui il tuo biglietto"/>
+        </properties>
+      </component>
+      <component id="365bc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bradley Hand ITC" size="28"/>
+          <foreground color="-913635"/>
+          <text value="VIA COL VENTO ... CON NOI PUOI!"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

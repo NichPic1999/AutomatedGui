@@ -1,0 +1,14 @@
+Identificativo del biglietto3271154088
+Nome dell'acquisitore:r
+Cognome dell'acquisitore:r
+Data di nascita:r
+Passaporto :r
+Carta di credito :r
+Codice volo: UM1290
+Partenza: MDR
+Arrivo: FCO
+Data di arrivo:03/03/2019
+Data partenza:03/03/2019
+Orario partenza:03:00
+Orario di arrivo: 06:20
+Prezzo del biglietto: 123
