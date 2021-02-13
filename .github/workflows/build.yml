@@ -25,12 +25,12 @@ jobs:
          run: mvn pmd:check
 
    Verifier:
-           name: Verify file
-           runs-on: ubuntu-latest
-           steps:
-             - uses: actions/checkout@v1
-             - name: verify file
-             - run: mvn verifier:verify
+       name: Verify file
+       runs-on: ubuntu-latest
+       steps:
+         - uses: actions/checkout@v1
+         - name: verify file 
+         - run: mvn verifier:verify
 
 
 
