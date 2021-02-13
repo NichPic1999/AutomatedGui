@@ -23,8 +23,16 @@ jobs:
          run: mvn pmd:cpd 
        - name: maven check
          run: mvn pmd:check
-     
-   
+
+        Verifier:
+           name: Verify file
+           runs-on: ubuntu-latest
+           steps:
+             - name: verify file
+             - run: mvn verifier:verify
+
+
+
    build:
      runs-on: ubuntu-latest
 
