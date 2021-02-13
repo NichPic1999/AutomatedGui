@@ -24,7 +24,7 @@ jobs:
        - name: maven check
          run: mvn pmd:check
 
-        Verifier:
+   Verifier:
            name: Verify file
            runs-on: ubuntu-latest
            steps:
