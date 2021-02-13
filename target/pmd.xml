@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2021-02-13T17:27:59.091">
+<file name="C:\Users\nicho\Desktop\Homework Java\Homework Aereoporto\src\main\java\it\unimol\Aeroporti\App\TicketManagment\TicketList.java">
+<violation beginline="12" endline="14" begincolumn="17" endcolumn="21" rule="CollapsibleIfStatements" ruleset="Design" package="it.unimol.Aeroporti.App.TicketManagment" class="TicketList" method="equals_flight" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#collapsibleifstatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="C:\Users\nicho\Desktop\Homework Java\Homework Aereoporto\src\main\java\it\unimol\Aeroporti\App\UsersManagment\UsersList.java">
+<violation beginline="24" endline="26" begincolumn="21" endcolumn="21" rule="CollapsibleIfStatements" ruleset="Design" package="it.unimol.Aeroporti.App.UsersManagment" class="UsersList" method="passport_check" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#collapsibleifstatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+<file name="C:\Users\nicho\Desktop\Homework Java\Homework Aereoporto\src\main\java\it\unimol\Aeroporti\Ui\AffirmationInterface.java">
+<violation beginline="10" endline="10" begincolumn="29" endcolumn="43" rule="UnusedPrivateField" ruleset="Best Practices" package="it.unimol.Aeroporti.Ui" class="AffirmationInterface" variable="changeInterface" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'changeInterface'.
+</violation>
+</file>
+<file name="C:\Users\nicho\Desktop\Homework Java\Homework Aereoporto\src\main\java\it\unimol\Aeroporti\Ui\PressTicket.java">
+<violation beginline="29" endline="29" begincolumn="29" endcolumn="43" rule="UnusedPrivateField" ruleset="Best Practices" package="it.unimol.Aeroporti.Ui" class="PressTicket" variable="changeInterface" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'changeInterface'.
+</violation>
+</file>
+<file name="C:\Users\nicho\Desktop\Homework Java\Homework Aereoporto\src\main\java\it\unimol\Aeroporti\Ui\ShowTicket.java">
+<violation beginline="28" endline="28" begincolumn="29" endcolumn="43" rule="UnusedPrivateField" ruleset="Best Practices" package="it.unimol.Aeroporti.Ui" class="ShowTicket" variable="changeInterface" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'changeInterface'.
+</violation>
+</file>
+</pmd>

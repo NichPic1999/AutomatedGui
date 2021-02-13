@@ -11,11 +11,7 @@ import it.unimol.Aeroporti.App.TicketManagment.TicketList;
 import it.unimol.Aeroporti.App.UsersManagment.User;
 import it.unimol.Aeroporti.App.UsersManagment.UsersList;
 
-
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 
 public class TicketBooking {
 
@@ -31,7 +27,6 @@ public class TicketBooking {
     private JTextField CreditCardNumber;
     private JTextField textFieldSurname;
     private JButton confirmButton;
-    private ChangeInterface changeInterface;
     // per i biglietti
     private FileOutputTicket fileOutputTicket = new FileOutputTicket();
     private FileInputTicket fileInputTicket = new FileInputTicket();
@@ -51,7 +46,6 @@ public class TicketBooking {
         ticketList.associate_list_Ticket(fileOutputTicket.fileoutputticket(list_of_users.list_of_users,flightsList.list_of_flights,ticketList.list_of_ticket));
         //tramite ticket list ricarico anche gli utenti
 
-        this.changeInterface = changeInterface;
         ATAAAACheckBox.addActionListener(e -> ticket.setFlight_booked(flightsList.list_of_flights.get(0)));
         AAAICPOCheckBox.addActionListener(e ->ticket.setFlight_booked(flightsList.list_of_flights.get(1)));
         MBXATACheckBox.addActionListener(e -> ticket.setFlight_booked(flightsList.list_of_flights.get(2)));
