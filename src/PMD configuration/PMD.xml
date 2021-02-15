@@ -4,16 +4,12 @@
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0
          https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
 
-
         <rule ref="category/java/bestpractices.xml/UnusedLocalVariable" />
         <rule ref="category/java/bestpractices.xml/UnusedPrivateField" />
         <rule ref="category/java/bestpractices.xml/UnusedPrivateMethod" />
         <rule ref="category/java/codestyle.xml/UselessParentheses" />
         <rule ref="category/java/bestpractices.xml/UnusedImports" />
         <rule ref="category/java/design.xml/CollapsibleIfStatements" />
-
-
-
 
 </ruleset>
 

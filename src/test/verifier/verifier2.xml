@@ -1,7 +1,7 @@
 <verifications>
     <files>
         <file>
-            <location>Users List.txt</location>
+            <location>src/main/java/it/unimol/Aeroporti/Main.java</location>
         </file>
     </files>
 </verifications>
