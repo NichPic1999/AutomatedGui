@@ -92,12 +92,28 @@
             <version>1.2</version>
             <configuration>
                 <doapOptions>
+
                     <programmingLanguage>Java</programmingLanguage>
                     <category>build-management</category>
+
+                    <!-- Default values -->
                     <created>2021-02-15</created>
-                    <description>Per passare l esame di java</description>
+                    <description>per passare l esame di java</description>
+                    <downloadPage/>
+                    <homepage/>
+                    <license>la mia</license>
+                    <mailingList/>
+                    <name/>
+                    <shortdesc/>
                     <vendor>Nicholas Di Pasquo</vendor>
                 </doapOptions>
+
+                <asfExtOptions>
+                    <charter>Nessuna ulteriore descrizione</charter>
+                    <pmc/>
+                    <name>Homework Aeroporto</name>
+                </asfExtOptions>
+
             </configuration>
         </plugin>
     </plugins>
