@@ -19,8 +19,6 @@ jobs:
        - uses: actions/checkout@v1
        - name: maven pmd
          run: mvn pmd:pmd
-       - name: maven pmd cpd
-         run: mvn pmd:cpd 
        - name: maven check
          run: mvn pmd:check
 
