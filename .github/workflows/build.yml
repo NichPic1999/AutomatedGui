@@ -30,7 +30,13 @@ jobs:
          - name: verify file 
            run: mvn verifier:verify
            
-  
+        Doap:
+          name: generate DOAP
+          runs-on: ubuntu-latest
+          steps:
+            -uses: actions/checkout@v1
+            -name: generate DOAP
+            run: mvn doap:generate
 
    build:
      runs-on: ubuntu-latest
