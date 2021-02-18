@@ -7,6 +7,7 @@ import it.unimol.Aeroporti.App.TicketManagment.Ticket;
 import java.io.*;
 import java.util.ArrayList;
 
+
 public class FileInputTicket {                             // prof. ho provato a fare la serializzazione dei Ticket
                                                            // ma nel momento della scrittura uscivano dei caratteri strani
     public FileInputTicket() {}                            // e per paura di mancanza di tempo e per verificare il corretto funzionamento successivo,

@@ -8,7 +8,7 @@
         <rule ref="category/java/bestpractices.xml/UnusedPrivateField" />
         <rule ref="category/java/bestpractices.xml/UnusedPrivateMethod" />
         <rule ref="category/java/codestyle.xml/UselessParentheses" />
-        <rule ref="category/java/bestpractices.xml/UnusedImports" />
+        <rule ref="category/java/bestpractices.xml/UnusedImports"/>
         <rule ref="category/java/design.xml/CollapsibleIfStatements" />
 
 </ruleset>

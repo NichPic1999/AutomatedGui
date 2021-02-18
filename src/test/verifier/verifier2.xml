@@ -1,6 +1,9 @@
 <verifications>
     <files>
         <file>
+            <location>Users List.txt</location>
+        </file>
+        <file>
             <location>src/main/java/it/unimol/Aeroporti/Main.java</location>
         </file>
     </files>

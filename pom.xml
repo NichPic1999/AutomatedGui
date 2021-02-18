@@ -25,13 +25,19 @@
 
     <packaging>jar</packaging>
 
-
     <properties>
-<!--        <maven.compiler.source>14</maven.compiler.source>-->
-<!--        <maven.compiler.target>14</maven.compiler.target>-->
         <jdk.version>1.8</jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.intellij</groupId>
+            <artifactId>forms_rt</artifactId>
+            <version>7.0.3</version>
+        </dependency>
+    </dependencies>
+
 
     <build>
     <plugins>
@@ -57,16 +63,18 @@
                 <verificationFile>src/test/verifier/verifier2.xml</verificationFile>
             </configuration>
         </plugin>
+
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-pmd-plugin</artifactId>
-            <version>3.13.0</version>
+            <version>3.14.0</version>
             <configuration>
                 <rulesets>
                     <ruleset>src/PMD configuration/PMD.xml</ruleset>
                 </rulesets>
             </configuration>
         </plugin>
+
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
@@ -113,7 +121,14 @@
                     <pmc/>
                     <name>Homework Aeroporto</name>
                 </asfExtOptions>
-
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-maven-plugin</artifactId>
+            <version>4.2.0</version>
+            <configuration>
+                <includeFilterFile>src/SpotbugsFilters/Spotbugs.xml</includeFilterFile>
             </configuration>
         </plugin>
     </plugins>
