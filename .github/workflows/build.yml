@@ -30,7 +30,7 @@ jobs:
          - name: verify file 
            run: mvn verifier:verify
            
-  spotBugs:
+spotBugs:
 
          runs-on: ubuntu-latest
          steps:
