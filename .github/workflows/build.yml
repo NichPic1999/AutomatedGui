@@ -30,7 +30,7 @@ jobs:
          - name: verify file 
            run: mvn verifier:verify
            
-spotBugs:
+   spotBugs:
 
          runs-on: ubuntu-latest
          steps:
@@ -46,8 +46,7 @@ spotBugs:
                name: generzione file
                path: target/reportspot.xml
            
-
-  build:
+   build:
      runs-on: ubuntu-latest
 
      steps:
