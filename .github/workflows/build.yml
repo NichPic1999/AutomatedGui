@@ -40,11 +40,7 @@ jobs:
                java-version: 1.8
            - name: obiettivo
              run: mvn spotbugs:spotbugs
-           - name: reportspot.xml
-             uses: actions/upload-artifact@v2
-             with:
-               name: generzione file
-               path: target/reportspot.xml
+         
            
    build:
      runs-on: ubuntu-latest
